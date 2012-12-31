@@ -5,11 +5,11 @@
     <artifactId>maven-parent-pom</artifactId>
     <groupId>org.exoplatform</groupId>
     <version>9-alpha-3</version>
-    <relativePath></relativePath>
+    <relativePath />
   </parent>
   <groupId>org.exoplatform.addons</groupId>
   <artifactId>addons-parent-pom</artifactId>
-  <version>1-SNAPSHOT</version>
+  <version>1</version>
   <packaging>pom</packaging>
   <name>eXo AddOns Parent POM</name>
   <description>Maven Parent POM for eXo AddOns projects</description>
@@ -17,6 +17,7 @@
     <connection>scm:git:git://github.com/exo-addons/addons-parent-pom.git</connection>
     <developerConnection>scm:git:git@github.com:exo-addons/addons-parent-pom.git</developerConnection>
     <url>https://github.com/exo-addons/addons-parent-pom</url>
+    <tag>1</tag>
   </scm>
   <issueManagement>
     <system>github</system>
