@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>maven-parent-pom</artifactId>
+    <groupId>org.exoplatform</groupId>
+    <version>9-alpha-3</version>
+    <relativePath></relativePath>
+  </parent>
+  <groupId>org.exoplatform.addons</groupId>
+  <artifactId>addons-parent-pom</artifactId>
+  <version>1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>eXo AddOns Parent POM</name>
+  <description>Maven Parent POM for eXo AddOns projects</description>
+  <scm>
+    <connection>scm:git:git://github.com/exo-addons/addons-parent-pom.git</connection>
+    <developerConnection>scm:git:git@github.com:exo-addons/addons-parent-pom.git</developerConnection>
+    <url>https://github.com/exo-addons/addons-parent-pom</url>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/exo-addons/addons-parent-pom/issues</url>
+  </issueManagement>
+  <properties>
+    <!-- **************************************** -->
+    <!-- Jenkins Settings -->
+    <!-- **************************************** -->
+    <jenkins.job.name>addons-parent-pom-master-ci</jenkins.job.name>
+    <!-- **************************************** -->
+    <!-- Repositories URLs                        -->
+    <!-- Using DAV for large artifacts - PAR-156  -->
+    <!-- **************************************** -->
+    <exo.snapshots.repo.url>dav:http://repository.exoplatform.org/content/repositories/exo-addons-snapshots</exo.snapshots.repo.url>
+  </properties>
+</project>
