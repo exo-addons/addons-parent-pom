@@ -18,7 +18,7 @@
     You should have received a copy of the GNU Lesser General Public
     License along with eXo AddOns Parent POM; if not, write to the Free
     Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
-    02110-1301 USA, or see <http://www.gnu.org/licenses/>.
+    02110-1301 USA, or see <http://www.gnu.org/licenses />.
 
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -31,14 +31,14 @@
   </parent>
   <groupId>org.exoplatform.addons</groupId>
   <artifactId>addons-parent-pom</artifactId>
-  <version>4-SNAPSHOT</version>
+  <version>4</version>
   <packaging>pom</packaging>
   <name>eXo AddOns Parent POM</name>
   <description>Maven Parent POM for eXo AddOns projects</description>
   <scm>
     <connection>scm:git:git://github.com/exo-addons/addons-parent-pom.git</connection>
     <developerConnection>scm:git:git@github.com:exo-addons/addons-parent-pom.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>4</tag>
     <url>https://github.com/exo-addons/addons-parent-pom</url>
   </scm>
   <issueManagement>
