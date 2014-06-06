@@ -16,8 +16,8 @@
   <scm>
     <connection>scm:git:git://github.com/exo-addons/addons-parent-pom.git</connection>
     <developerConnection>scm:git:git@github.com:exo-addons/addons-parent-pom.git</developerConnection>
-    <url>https://github.com/exo-addons/addons-parent-pom</url>
     <tag>HEAD</tag>
+    <url>https://github.com/exo-addons/addons-parent-pom</url>
   </scm>
   <issueManagement>
     <system>github</system>
