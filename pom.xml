@@ -54,6 +54,6 @@
     <!-- Repositories URLs                        -->
     <!-- Using DAV for large artifacts - PAR-156  -->
     <!-- **************************************** -->
-    <exo.snapshots.repo.url>dav:http://repository.exoplatform.org/content/repositories/exo-addons-snapshots</exo.snapshots.repo.url>
+    <exo.snapshots.repo.url>https://repository.exoplatform.org/content/repositories/exo-addons-snapshots</exo.snapshots.repo.url>
   </properties>
 </project>
