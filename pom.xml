@@ -55,10 +55,5 @@
     <!-- Using DAV for large artifacts - PAR-156  -->
     <!-- **************************************** -->
     <exo.snapshots.repo.url>https://repository.exoplatform.org/content/repositories/exo-addons-snapshots</exo.snapshots.repo.url>
-    <!-- Keep Java 6 compatibility for add-ons (for PLF 4.0.x) -->
-    <maven.compiler.target>1.6</maven.compiler.target>
-    <maven.compiler.source>1.6</maven.compiler.source>
-    <animal-sniffer.signature.artifactId>java16</animal-sniffer.signature.artifactId>
-    <animal-sniffer.signature.version>1.1</animal-sniffer.signature.version>
   </properties>
 </project>
