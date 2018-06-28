@@ -31,14 +31,14 @@
   </parent>
   <groupId>org.exoplatform.addons</groupId>
   <artifactId>addons-parent-pom</artifactId>
-  <version>9-SNAPSHOT</version>
+  <version>9-RC01</version>
   <packaging>pom</packaging>
   <name>eXo AddOns Parent POM</name>
   <description>Maven Parent POM for eXo AddOns projects</description>
   <scm>
     <connection>scm:git:git://github.com/exo-addons/addons-parent-pom.git</connection>
     <developerConnection>scm:git:git@github.com:exo-addons/addons-parent-pom.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>9-RC01</tag>
     <url>https://github.com/exo-addons/addons-parent-pom</url>
   </scm>
   <issueManagement>
