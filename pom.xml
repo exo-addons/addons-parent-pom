@@ -31,7 +31,7 @@
   </parent>
   <groupId>org.exoplatform.addons</groupId>
   <artifactId>addons-parent-pom</artifactId>
-  <version>11-SNAPSHOT</version>
+  <version>12-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>eXo AddOns Parent POM</name>
   <description>Maven Parent POM for eXo AddOns projects</description>
